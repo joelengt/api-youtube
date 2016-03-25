@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	background: #F1F1F1;
+}
+
+.Header-Main {
+	background: #F72A2A;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.Header-Main .Header-Main__title{
+	display: block;
+}
+
+.Header-Main .Header-Main__title h1{
+	font-size: 3rem;
+	color: white;
+}
+
+.Header-Main .Header-Main__form{
+	display: block;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.Header-Main .Header-Main__form input{
+	display: inline-block;
+	padding: .9rem;
+	font-size: .9rem;
+	width: 60%;
+	margin: .5rem;
+}
+
+.loader {
+	display: block;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	font-size: 2rem;
+}
+
+.videos_box {
+	display: block;
+	text-align: left;
+	max-width: 900px;
+	margin: 2rem auto;
+	background: white;
+}
+
+.videos_box .videos_list {
+	margin: 0 auto;
+}
+
+.videos_box .videos_list div {
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+}
+
+.videos_box .videos_list div .video__cover{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20%;
+	margin: 1.5rem 2rem;
+	text-align: right;
+}
+
+.videos_box .videos_list div .video__info {
+	display: inline-block;
+	color: #4A4A4A;
+	font-size: .9rem;
+	
+}
+
+.videos_box .videos_list div .video__info .video__title{
+	color: blue;
+	text-decoration: none;
+	display: block;
+	font-size: 1.3rem;
+}
+
+.videos_box .videos_list div .video__info .video__title:hover{
+	text-decoration: underline;
+}
+
+.videos_box .videos_list div .video__info .video__channel_go{
+	text-decoration: none;
+	display: block;
+	color: #4A4A4A;
+}
+
+.videos_box .videos_list div .video__info .video__channel_go:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.videos_box .videos_list div .video__info .video__published{
+	display: block;
+}
+
+.videos_box .videos_list div .video__info .video__description{
+	display: block;
+}
+
+.videos_box .videos_list div .video__info{
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+}
+
+footer {
+	background: #121315;
+	color: white;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+footer a {
+	color: white;
+}
