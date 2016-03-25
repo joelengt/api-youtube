@@ -7,19 +7,25 @@ Bajarlo con git:
 git clone https://github.com/joelengt/api-youtube.git
 ```
 
-## Uso
-Para poder usarlo, la api trabaja con autorización de clave "key", es necesario registrarse en la plataforma para poder obtener permisos
-a la url deseada, en mi caso a qui doy acceso al [demo](http://joelengt.github.io/api-youtube) con url repo en github, y para desarrollo
-en http://localhost:5000. Si deseas cambiarlo, es mejor registrar uno propio y configurarlo a gusto.
-
 ## Start
-Para iniciar, solo hace falta abrir el proyecto dentro de un servidor estatico, com apache. Puedes usar el que guste, en mi caso uso 
-[dev-server](https://www.npmjs.com/package/dev-server).
+Para correr el proyecto en local o en producción , es necesario ejecutarlo en un servidor con apache2, o que soporte estaticos.
+En local correrlo con [dev-server](https://www.npmjs.com/package/dev-server), en producción con apache2, nginx o el de preferencia.
 
+>install:
+```
+npm install dev-server -g
+```
+
+>run server
 ```
 DEV_SERVER_PORT=5000 DEV-SERVER
-
 ```
+
+>Ver en el navegador:
+```
+http://localhost:5000
+```
+
 ## Permisos (MIT)
 Puedes usar este proyecto con fines educativos, te recomiendo registrar tu propia app en la plataforma de youtube, y optener tus propias 
 credenciales. Estare contente de saber si este codigo te fue de ayuda.
