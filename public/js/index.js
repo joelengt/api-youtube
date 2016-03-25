@@ -2,7 +2,7 @@ var $btn_search = document.querySelector('#btn_search')
 var $box_search = document.querySelector('#box_search')
 
 var url = 'https://www.googleapis.com/youtube/v3/search'
-var KEY = 'AIzaSyBC9ytH6IsedGF4whIEtUF9tQdVqdE7lqM'
+var KEY = 'AIzaSyCL8pOuNlf3d_hBrY-CwhWu_EI-jOr9w0I'
 
 var url_canal = 'https://www.youtube.com/channel/'
 var form_url_video = 'https://www.youtube.com/embed/'
